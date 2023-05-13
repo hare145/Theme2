@@ -1,0 +1,104 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.successfully {
+ font-size: 13px;
+ line-height: 18px;
+ margin: 33px;
+ color: green;
+}
+
+.books {
+  font-size: 26px;
+  line-height: 18px;
+  margin: 17px 0px;
+}
+
+
+th {
+ font-size: 13px;
+ line_height: 18px;
+ padding-bottom: 5px;
+}
+
+td {
+ font-size: 13px;
+ padding: 0px 5px 7px 5px;
+}
+
+.errors {
+ font-size: 12px;
+ line-height: 18px;
+ padding: 5px 5px 15px 5px;
+}
+
+ul {
+ font-size: 12px;
+ margin: 33px;   
+}
+
+.input {
+ font-size: 13px;
+}
+
+.books-new {
+  font-size: 19px;
+  line-height: 18px;
+  margin: 16px 0px;
+}
+
+.edit_book {
+ font-size: 26px;
+ line-height: 18px;
+ margin: 17px 0px;
+}
+
+.update {
+  margin-bottom: 10px;
+}
+
+.show-line {
+ display: flex;
+ margin: 33px;
+}
+
+.show-edit-word {
+ font-size: 13px;
+}
+
+.show-update {
+ font-size: 13px;
+ line-height: 18px;
+}
+
+.edit-input {
+ font-size: 13px;
+ line-height: 18px;
+ margin-bottom: 10px;
+}
+
+.select {
+  display: flex;
+}
+
+.edit {
+ font-size: 13px;
+ line-height: 18px;
+}
+
+.border {
+ font-size: 13px;
+ line-height: 18px;
+}
+
+.back {
+ font-size: 13px;
+ line-height: 18px;
+}

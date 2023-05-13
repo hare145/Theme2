@@ -1,0 +1,26 @@
+<% if flash[:notice] %>
+  <p class = "successfully" id="notice">
+   <%= flash[:notice] %>
+  </p>
+<% end %>
+
+<div class = "show-line">
+  <h2 class = "show-edit-word">Title:</h2>
+  <p class = "show-update"><%= @books.title %></p>
+</div>
+
+<div class = "show-line">
+  <h2 class = "show-edit-word">Body:</h2>
+  <p class = "show-update"><%= @books.body %></p>
+</div>
+
+
+ <span class = "edit">
+  <%= link_to "Edit", edit_book_path(@books) %>
+ </span>
+ 
+ <span class = "border">|</span>
+ 
+ <span class = "back">
+  <%= link_to "Back", "/book" %>
+ </span>
